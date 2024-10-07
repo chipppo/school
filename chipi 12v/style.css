@@ -1,0 +1,28 @@
+
+        
+        .glow {
+            font-size: 80px;
+            color: #000000;
+            text-align: center;
+            animation: glow 1s ease-in-out infinite alternate;
+          }
+          
+          @-webkit-keyframes glow {
+            from {
+              text-shadow: 0 0 10px #ff0000, 0 0 20px #ff019e, 0 0 30px #e60073, 0 0 40px #ff1010, 0 0 50px #e60073, 0 0 60px #e60073, 0 0 70px #e60073;
+            }
+            
+            to {
+              text-shadow: 0 0 20px #3402f9, 0 0 30px #00ff2a, 0 0 40px #ffff04, 0 0 50px #ff8400, 0 0 60px #ff4da6, 0 0 70px #ff4da6, 0 0 80px #ff4da6;
+            }
+          }
+        footer, header {
+            background-color: #ff6200;
+            padding: 20px;
+            text-align: center;
+            color: rgb(33, 64, 74);
+            font-size: 90px;
+            border-style: inset;
+            border-width: 50px;
+            border-color: #fe5500;
+        } 
