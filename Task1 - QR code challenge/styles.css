@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #b7e3ea; /* Soft background color */
+}
+.card {
+    background-color: white;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+.kod {
+
+    border-radius: 10px;
+}
+.card h2 {
+    font-size: 30px;
+    color: #2e2e2e;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.card p {
+    font-size: 20px;
+    color: #6b6b6b;
+}
