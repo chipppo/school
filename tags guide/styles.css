@@ -1,0 +1,59 @@
+/* Основно стилизиране на страницата */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1.9;
+    background-color: #e6f1db;
+    color: rgb(66, 61, 61);
+}
+
+header {
+    background-color: #0aaa0f81;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+}
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 30px;
+}
+
+article {
+    background-color: rgb(165, 212, 159);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
