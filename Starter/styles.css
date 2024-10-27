@@ -1,0 +1,75 @@
+  body {
+    background-color: #333;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .container {
+    background-color:rgb(41, 41, 41);
+    max-width: 800px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffda00;
+  }
+  
+  .tabs {
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    padding: 10px 40px;
+    cursor: pointer;
+    color: #ffda00;
+  }
+  
+  .tab.active {
+    border-bottom: 2px solid #ffda00;
+  }
+  
+  .card-grid {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .card {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+  }
+  
+  img {
+    margin-bottom: 15px;
+    color: #ccc;
+  }
+  
+  h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .score {
+    font-size: 24px;
+    color: #ffda00;
+    margin: 10px 0;
+  }
+  
+  .details, .minute {
+    color: #7fc400;
+    margin: 5px 0;
+  }
+  
+  .more {
+    color: #ffda00;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
