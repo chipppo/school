@@ -1,0 +1,125 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+    color: #343a40;
+    display: flex;
+}
+
+/* Header */
+header {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Top Navigation */
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.top-nav ul li a:hover {
+    background-color: #6c757d;
+}
+
+/* Sidebar Navigation */
+.sidebar {
+    background-color: #343a40;
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 120px;
+    z-index: 999;
+}
+
+.sidebar nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li {
+    margin: 10px 0;
+}
+
+.sidebar nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+    background-color: #495057;
+    border-radius: 5px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #6c757d;
+}
+
+/* Main Content */
+main {
+    margin-left: 220px;
+    padding: 120px 20px 20px;
+    max-width: 800px;
+}
+
+/* Section and Article Headings */
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #343a40;
+    border-bottom: 2px solid #adb5bd;
+    padding-bottom: 10px;
+}
+
+article h3 {
+    color: #495057;
+    margin-top: 20px;
+}
+
+article p {
+    color: #495057;
+    margin-top: 5px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: 220px;
+}
